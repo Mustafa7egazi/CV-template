@@ -171,3 +171,52 @@ padding-bottom: 15px;}
     text-align: center;
     color: white;
 }
+
+/* mobiles */
+@media (max-width:767px) {
+    .container > .left
+    {
+        max-height:50%;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
+ 
+    
+}
+
+/* small screens */
+@media(min-width:768px) and (max-width:991px){
+    .container > .left
+    {
+        max-height:50%;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
+    .left > img
+    {
+        width:60%;
+        margin-left: 20%;
+    }
+    
+
+}
+/* 
+//medium screens
+@media (min-width:992px) {
+
+}
+
+// large screens 
+@media (min-width:1200px) {
+    
+}
+*/
+
+
+
